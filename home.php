@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>home</title>
+	<script src="Buscar/busqueda.js"></script>
+	<script src="Buscar/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="home.css">
+
+
+	
+</head>
+<body>
+
+	<header>
+		<hgroup>
+			<h1>RUIZ DIAZ PAINTING</h1>
+			<h3>SISTEMA DE BUSQUEDA</h3>
+		</hgroup>
+
+		<nav>
+		<ul>
+			<li><a href="agregar/sistema_agregar.php">AGREGAR REGISTRO</a></li>
+			<li><a href="#">ELIMINAR REGISTRO</a></li>
+			<li><a href="#">INVENTARIO</a></li>
+		</ul>
+	</nav>
+	</header>
+  	
+  	<section class="one">
+  		<input type="text" name="busqueda" id="busqueda" placeholder="Buscar...">
+  	</section>
+ 
+ 	<section id="tabla_resultado">
+ 		<h2>
+ 			¡ No sale el chingado buscador !
+ 		</h2>
+ 	</section>
+
+
+</body>
+    
+</html>

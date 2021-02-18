@@ -1,0 +1,67 @@
+h1{
+	color: blue;
+}
+
+header{
+	border:2px solid black;
+	margin:10px;
+}
+
+.one{
+	border:2px solid black;
+	margin-top: 60px;
+}
+
+#tabla_resultado{
+	
+	background: #000000;
+}
+.table{
+	margin-top: 10px;
+}
+.bg-primary{
+	background: #EB533A ;
+	font-style: oblique;
+}
+.color{
+	border:2px solid black;
+	background: #E4CDCD;
+}
+nav{
+	background: white;
+	width: 100%;
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	text-align: right;
+	margin:5px 1px;
+
+}
+nav ul{
+	padding: 0px;
+	margin:0px;
+	list-style: none;
+}
+li{
+	display: inline-block;
+	margin:7px -2px;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+	padding: 5px 10px;
+}
+
+li:nth-of-type(1) a:focus{
+	border-bottom: 3px solid #5ADB57;
+}
+li:nth-of-type(2) a:focus{
+	border-bottom: 3px solid #F7D809;
+}
+li:nth-of-type(3) a:focus{
+	border-bottom: 3px solid #4B68E5;
+}
+table{
+	margin-top: 100px;
+}
