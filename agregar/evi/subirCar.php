@@ -1,7 +1,7 @@
 <?php 
 $msg = null;
 
-if (iseet($_POST["directorio"])) 
+if (isset($_POST["directorio"])) 
 {
 
 	$carpeta = htmlspecialchars($_POST["carpeta"]);
